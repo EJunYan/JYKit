@@ -10,6 +10,19 @@
 		6091F0E5202FE138006C043A /* JYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6091F0DB202FE138006C043A /* JYKit.framework */; };
 		6091F0EA202FE138006C043A /* JYKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F0E9202FE138006C043A /* JYKitTests.swift */; };
 		6091F0EC202FE138006C043A /* JYKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6091F0DE202FE138006C043A /* JYKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6091F0F6202FE25E006C043A /* JYUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F0F5202FE25D006C043A /* JYUIView.swift */; };
+		6091F0F8202FE29C006C043A /* JYUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F0F7202FE29C006C043A /* JYUIViewController.swift */; };
+		6091F0FD202FE3A2006C043A /* String+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F0FC202FE3A2006C043A /* String+JYAdd.swift */; };
+		6091F0FF202FE3AC006C043A /* UIScrollView+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F0FE202FE3AC006C043A /* UIScrollView+JYAdd.swift */; };
+		6091F101202FE3B4006C043A /* UIView+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F100202FE3B4006C043A /* UIView+JYAdd.swift */; };
+		6091F103202FE3C2006C043A /* UITableView+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F102202FE3C2006C043A /* UITableView+JYAdd.swift */; };
+		6091F105202FE426006C043A /* Data+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F104202FE426006C043A /* Data+JYAdd.swift */; };
+		6091F107202FE449006C043A /* Date+JYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F106202FE449006C043A /* Date+JYAdd.swift */; };
+		6091F10A202FE5DD006C043A /* JYBasicUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F108202FE5DD006C043A /* JYBasicUIViewController.swift */; };
+		6091F10B202FE5DD006C043A /* JYBasicUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6091F109202FE5DD006C043A /* JYBasicUIViewController.xib */; };
+		6091F10F202FE9C3006C043A /* JYBasicUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F10E202FE9C3006C043A /* JYBasicUIView.swift */; };
+		6091F114202FEA85006C043A /* JYBasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091F112202FEA85006C043A /* JYBasicTableViewCell.swift */; };
+		6091F115202FEA85006C043A /* JYBasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6091F113202FEA85006C043A /* JYBasicTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +42,19 @@
 		6091F0E4202FE138006C043A /* JYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6091F0E9202FE138006C043A /* JYKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYKitTests.swift; sourceTree = "<group>"; };
 		6091F0EB202FE138006C043A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6091F0F5202FE25D006C043A /* JYUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYUIView.swift; sourceTree = "<group>"; };
+		6091F0F7202FE29C006C043A /* JYUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYUIViewController.swift; sourceTree = "<group>"; };
+		6091F0FC202FE3A2006C043A /* String+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F0FE202FE3AC006C043A /* UIScrollView+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F100202FE3B4006C043A /* UIView+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F102202FE3C2006C043A /* UITableView+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F104202FE426006C043A /* Data+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F106202FE449006C043A /* Date+JYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+JYAdd.swift"; sourceTree = "<group>"; };
+		6091F108202FE5DD006C043A /* JYBasicUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYBasicUIViewController.swift; sourceTree = "<group>"; };
+		6091F109202FE5DD006C043A /* JYBasicUIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JYBasicUIViewController.xib; sourceTree = "<group>"; };
+		6091F10E202FE9C3006C043A /* JYBasicUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYBasicUIView.swift; sourceTree = "<group>"; };
+		6091F112202FEA85006C043A /* JYBasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYBasicTableViewCell.swift; sourceTree = "<group>"; };
+		6091F113202FEA85006C043A /* JYBasicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JYBasicTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +97,15 @@
 		6091F0DD202FE138006C043A /* JYKit */ = {
 			isa = PBXGroup;
 			children = (
+				6091F0FB202FE373006C043A /* Extension */,
 				6091F0DE202FE138006C043A /* JYKit.h */,
+				6091F0F5202FE25D006C043A /* JYUIView.swift */,
+				6091F0F7202FE29C006C043A /* JYUIViewController.swift */,
+				6091F10E202FE9C3006C043A /* JYBasicUIView.swift */,
+				6091F112202FEA85006C043A /* JYBasicTableViewCell.swift */,
+				6091F113202FEA85006C043A /* JYBasicTableViewCell.xib */,
+				6091F108202FE5DD006C043A /* JYBasicUIViewController.swift */,
+				6091F109202FE5DD006C043A /* JYBasicUIViewController.xib */,
 				6091F0DF202FE138006C043A /* Info.plist */,
 			);
 			path = JYKit;
@@ -84,6 +118,19 @@
 				6091F0EB202FE138006C043A /* Info.plist */,
 			);
 			path = JYKitTests;
+			sourceTree = "<group>";
+		};
+		6091F0FB202FE373006C043A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6091F102202FE3C2006C043A /* UITableView+JYAdd.swift */,
+				6091F0FE202FE3AC006C043A /* UIScrollView+JYAdd.swift */,
+				6091F100202FE3B4006C043A /* UIView+JYAdd.swift */,
+				6091F104202FE426006C043A /* Data+JYAdd.swift */,
+				6091F0FC202FE3A2006C043A /* String+JYAdd.swift */,
+				6091F106202FE449006C043A /* Date+JYAdd.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +195,7 @@
 				TargetAttributes = {
 					6091F0DA202FE138006C043A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					6091F0E3202FE138006C043A = {
@@ -179,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6091F10B202FE5DD006C043A /* JYBasicUIViewController.xib in Resources */,
+				6091F115202FEA85006C043A /* JYBasicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6091F107202FE449006C043A /* Date+JYAdd.swift in Sources */,
+				6091F0FD202FE3A2006C043A /* String+JYAdd.swift in Sources */,
+				6091F10A202FE5DD006C043A /* JYBasicUIViewController.swift in Sources */,
+				6091F101202FE3B4006C043A /* UIView+JYAdd.swift in Sources */,
+				6091F0F6202FE25E006C043A /* JYUIView.swift in Sources */,
+				6091F0FF202FE3AC006C043A /* UIScrollView+JYAdd.swift in Sources */,
+				6091F105202FE426006C043A /* Data+JYAdd.swift in Sources */,
+				6091F103202FE3C2006C043A /* UITableView+JYAdd.swift in Sources */,
+				6091F114202FEA85006C043A /* JYBasicTableViewCell.swift in Sources */,
+				6091F10F202FE9C3006C043A /* JYBasicUIView.swift in Sources */,
+				6091F0F8202FE29C006C043A /* JYUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +395,7 @@
 		6091F0F0202FE138006C043A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.onelcat.JYKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +418,7 @@
 		6091F0F1202FE138006C043A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +440,7 @@
 		6091F0F3202FE138006C043A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLA64LU5VG;
 				INFOPLIST_FILE = JYKitTests/Info.plist;
@@ -390,6 +455,7 @@
 		6091F0F4202FE138006C043A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLA64LU5VG;
 				INFOPLIST_FILE = JYKitTests/Info.plist;
